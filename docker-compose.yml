@@ -1,0 +1,15 @@
+services:
+  portainer:
+    image: portainer/portainer-ce:2.33.0
+    container_name: portainer
+    restart: unless-stopped
+    ports:
+      - "9443:9443"   # UI HTTPS
+      - "8000:8000"   # Edge endpoint (opcional; remova se não usar)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+volumes:
+  portainer_data:
+
