@@ -23,4 +23,4 @@ Portainer é uma interface de gerenciamento para ambientes Docker.
 
 ---
 
-[Perfil no GitHub - Victor Ferreira](https://github.com/vitfera)
+Desenvolvido por [vitfera](https://github.com/vitfera)
